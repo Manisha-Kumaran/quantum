@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand-Medium.ttf);
+    font-style: medium;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand-Bold.ttf);
+    font-style: bold;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand-Light.ttf);
+    font-style: light;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand-SemiBold.ttf);
+    font-style: semibold;
+    font-weight: 600;
+}
+
+
+.container {
+    display:flex;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    width: 1024px;
+    height: 798px;
+    opacity: 1;
+    flex-direction: column;
+
+}
+
+.header {
+    display:flex;
+    background-image: url('images/header.png');
+    background-repeat: no-repeat;
+    opacity: 100;
+    /*background: #000000 0% 0% no-repeat padding-box;*/
+    box-shadow: -2px 4px 4px #0000003D;
+    width: 1024px;
+    height: 47px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #25313f;
+}
+
+.main{
+    column-gap: 77px;
+    margin-top: 54px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    margin-left: 268px;
+    width: 488px;
+    height: 550px;
+}
+
+.arrow {
+    width:17px;
+    height: 26px;
+    float: right;
+    margin-top: 22px;
+    margin-left: 32px;
+}
+
+.login {
+    display:flex;
+}
+
+.loginwith {
+    margin-top: 20px;
+    margin-left: 77px;
+    text-align: center;
+    color: #222222;
+    opacity: 1;
+    float:right;
+    width: 236px;
+    height: 30px;
+    /*font: normal normal medium 24px/28px Quicksand;*/
+    font-family: 'Quicksand';
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #222222;
+    margin-bottom: 0px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio,.state,.district,.username,.password,.remem,.info{
+    display:flex;
+    flex-direction: row;
+}
+.line {
+    border-bottom: 1px solid #EEEEEE;
+}
+.info {
+    display: flex;
+    font-family: 'Quicksand';
+    margin-left: 447px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1f7a54;
+    margin-top: 32px;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.footer {
+    display:flex;
+    background-image: url('images/footer.png');
+    background-repeat: no-repeat;
+    opacity: 100;
+    background: #E0E1E1 0% 0% no-repeat padding-box;
+    box-shadow: -2px 4px 4px #0000003D;
+    width: 1024px;
+    height: 47px;
+    margin-top: 16px;
+    margin-left: 0px;
+    opacity: 1;
+}
+
+.radio {
+    display:flex;
+    margin-left: 32px;
+    margin-bottom: 23px;
+}
+
+.button {
+    background: #3FD28B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003D;
+    width: 216px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    margin-top: 34px;
+    margin-left: 136px;
+}
+
+.form {
+    margin-top: 34px;
+    font-family: 'Quicksand';
+}
+
+.label {
+    font-family: 'Quicksand';
+    text-align: left;
+    font-size: 12px;
+font: normal normal medium 12px/16px Quicksand;
+letter-spacing: 0px;
+color: #666666;
+margin-top: 36px;
+margin-left: 32px;
+}
+
+.label1 {
+    margin-left: 8px;
+    margin-right: 32px;
+}
+.inp {
+    display: inline-block;
+    height: 30px;
+    width: 424px;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 32px;
+    margin-bottom: 36px;
+}
+
+.inp2 {
+    display: inline-block;
+    height: 30px;
+    width: 424px;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 32px;
+    
+}
+
+.check {
+    margin-left: 32px;
+}
+
+.fttext {
+    display: flex;
+    margin-left: 16px;
+    height: 15px;
+    font-family: 'Quicksand';
+    font-size: 12px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    color: #616161;
+    font-weight: 600;
+}

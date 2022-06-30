@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quantum Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="dashboard.css" />
+    </head>
+
+    <body>
+        <div class="container">
+                <header>
+                    <img src="images/logo used in header.svg" style="height: 36px;width: 134px;margin-top: 12px;margin-left: 29px;margin-bottom: 12px;">
+                    <nav class="menu">
+                        <input type="checkbox" id="menuToggle">
+                        <!--<label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>-->
+                        <ul>
+                            <a href="#"><li>DASHBOARD</li></a>
+                            <a href="#"><li>CONTENT</li></a>
+                            <a href="#"><li>USERS</li></a>
+                            <a href="#"><li>REPORTS</li></a>
+                            <a href="#"><li>ADMIN</li></a>
+                        </ul>
+                        <img class="icon" src="images/alerts.svg">
+                        <img class="icon" src="images/announcements.svg">
+                        <img class="icon" src="images/person.jpg">
+                        <img class="menu-icon" src="images/hamburger-menu.svg">
+                    </nav> 
+                </header>
+                <div class="main">
+                    <div class="navbar">
+                        <div class="course">
+                            <img src="images/courses.svg">
+                            <p style="font-size: 20px; font-weight: bold;margin-left: 8px;">4</p>
+                            <p style="font-size: 16px;margin-left: 8px;">Courses</p>
+                        </div>
+                        <div class="class">
+                            <img src="images/classes.svg">
+                            <p style="font-size: 20px; font-weight: bold;margin-left: 16px;">4</p>
+                            <p style="font-size: 16px;margin-left: 8px;">Classes</p>
+                        </div>
+                    </div>
+                    <div class="filter">
+                        <div class="num">
+                            <p>Showing 4 of 4 courses</p>
+                        </div>
+                        <div class="name">
+                            <p style="margin-left: 591px;margin-right: 6px;">Sort By:</p>
+                            <select style="border:none;outline:0px;">
+                                <option>Course Name</option>
+                            </select>
+                            <img src="images/sort.svg" style="margin-left: 88px;margin-top:6px; width: 12px;height: 24px;">
+                        </div>        
+                    </div>
+
+                    <div class="grid">
+                        <div class="box1">
+                            <div class="img">
+                                <img src="images/imageMask.png" style="width: 132px;height: 157px;margin-left:24px;margin-top:24px">
+                            </div>
+                            <div class="items">
+                            <div class="lesson" style="display: flex;">
+                                <p style="font-size:16px;font-family: 'Quicksand';">Acceleration</p>
+                                <img class="fav" src="images/favourite.svg" />
+                            </div>
+                            <div class="subject">
+                                <p>Physics&nbsp;&nbsp;&#124;</p>
+                                <p>&nbsp;Grade 7&nbsp;</p>
+                                <p style="color:#1F7A54">+2</p>
+                            </div>
+                            <div class="parts">
+                                <p><b>4</b>&nbsp;Units&nbsp;&nbsp;</p>
+                                <p><b>18</b>&nbsp;Lessons&nbsp;&nbsp;</p>
+                                <p><b>24</b>&nbsp;Topics&nbsp;&nbsp;</p>
+                            </div>
+                            <div class="prof">
+                                <select>
+                                <option value="class">Mr. Frank's class B</option>
+                                </select>
+                            </div>
+                            <div class="date">
+                                <p>50 Students</p>
+                                <p>21-Jan-2020</p>
+                                <p>&nbsp;-&nbsp;</p>
+                                <p>21-Aug-2020</p>
+                            </div>
+                            <div class="insights">
+                                <img src="images/preview.svg" />
+                                <img src="images/manage course.svg" />
+                                <img src="images/grade submissions.svg" />
+                                <img src="images/reports.svg" />
+
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="box2">
+                            <div class="img">
+                                <img src="images/imageMask-1.png" style="width: 132px;height: 157px;margin-left:24px;margin-top:24px">
+                            </div>
+                            <div class="items">
+                            <div class="lesson" style="display: flex;">
+                                <p style="font-size:16px;font-family: 'Quicksand';">Displacement, Velocity and <br> Speed</p>
+                                <img class="fav" src="images/favourite.svg" />
+                            </div>
+                            <div class="subject">
+                                <p>Physics 2&nbsp;&nbsp;&#124;</p>
+                                <p>&nbsp;Grade 6&nbsp;</p>
+                                <p style="color:#1F7A54">+3</p>
+                            </div>
+                            <div class="parts">
+                                <p><b>2</b>&nbsp;Units&nbsp;&nbsp;</p>
+                                <p><b>5</b>&nbsp;Lessons&nbsp;&nbsp;</p>
+                                <p><b>20</b>&nbsp;Topics&nbsp;&nbsp;</p>
+                            </div>
+                            <div class="prof">
+                                <select>
+                                <option value="class">No Classes</option>
+                                </select>
+                            </div>
+                            
+                            <div class="insights">
+                                <img src="images/preview.svg" />
+                                <img src="images/manage course.svg" />
+                                <img src="images/grade submissions.svg" />
+                                <img src="images/reports.svg" />
+
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="box3">
+                            <div class="img">
+                                <img src="images/imageMask-3.png" style="width: 132px;height: 157px;margin-left:24px;margin-top:24px">
+                            </div>
+                            <div class="items">
+                            <div class="lesson" style="display: flex;">
+                                <div class="flex" style="display: flex;flex-direction: row; width: 260px;">
+                                    <p style="font-size:16px;font-family: 'Quicksand';">Introduction to Biology: Micro<br> organisms and how they affec...</p>
+                                </div>
+                                <img class="fav" src="images/favourite.svg" />
+                            </div>
+                            <div class="subject">
+                                <p>Biology&nbsp;&nbsp;&#124;</p>
+                                <p>&nbsp;Grade 4&nbsp;</p>
+                                <p style="color:#1F7A54">+1</p>
+                            </div>
+                            <div class="parts">
+                                <p><b>5</b>&nbsp;Units&nbsp;&nbsp;</p>
+                                <p><b>16</b>&nbsp;Lessons&nbsp;&nbsp;</p>
+                                <p><b>22</b>&nbsp;Topics&nbsp;&nbsp;</p>
+                            </div>
+                            <div class="prof">
+                                <select>
+                                <option value="class">All Classes</option>
+                                </select>
+                            </div>
+                            <div class="date">
+                                <p>300 Students</p>
+                            </div>
+                            <div class="insights">
+                                <img src="images/preview.svg" />
+                                <img src="images/manage course.svg" />
+                                <img src="images/grade submissions.svg" />
+                                <img src="images/reports.svg" />
+
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="box4">
+                            <div class="img">
+                                <img src="images/imageMask-2.png" style="width: 132px;height: 157px;margin-left:24px;margin-top:24px">
+                            </div>
+                            <div class="items">
+                            <div class="lesson">
+                                <div style="display:flex;">
+                                    <p style="font-size:16px;font-family: 'Quicksand';">Introduction to High School<br>Mathematics</p>
+                                </div>
+                                <img class="fav" src="images/favourite.svg" />
+                            </div>
+                            <div class="subject">
+                                <p>Mathematics&nbsp;&nbsp;&#124;</p>
+                                <p>&nbsp;Grade 8&nbsp;</p>
+                                <p style="color:#1F7A54">+3</p>
+                            </div>
+                            
+                            <div class="prof">
+                                <select>
+                                <option value="class">Mr. Frank's class B</option>
+                                </select>
+                            </div>
+
+                            <div class="date">
+                                <p>44 Students</p>
+                                <p>14-Oct-2019</p>
+                                <p>&nbsp;-&nbsp;</p>
+                                <p>20-Oct-2020</p>
+                            </div>
+                            
+                            <div class="insights">
+                                <img src="images/preview.svg" />
+                                <img src="images/manage course.svg" />
+                                <img src="images/grade submissions.svg" />
+                                <img src="images/reports.svg" />
+
+                            </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        
+                <footer>
+                    <div class="info">
+                        <a>About</a>
+                        <span>|</span>
+                        <a>Contact Us</a>
+                    </div>
+                    <div class="footer">
+                        <img src="images/logo used in footer.svg" style="margin-left: 262px;">
+                        <div class="fttext">
+                        <p>	 &nbsp;&nbsp;&#124; &nbsp;Copyright © 2020-2021 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <p>Zeus Systems Pvt. Ltd. &nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <p>All rights reserved.</p>
+                        </div>
+                    </div>
+            
+                </footer>
+        </div>
+    </body>
+    
+</html>
+
+    

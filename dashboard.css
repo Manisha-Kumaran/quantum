@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand-Medium.ttf);
+    font-style: medium;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand-Bold.ttf);
+    font-style: bold;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand-Light.ttf);
+    font-style: light;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand-SemiBold.ttf);
+    font-style: semibold;
+    font-weight: 600;
+}
+
+.container {
+    background-color: #EEEEEE;
+
+}
+
+header {
+    width: 100%;
+    display:flex;
+    background-image: url('images/header.png');
+    background-repeat: no-repeat;
+    opacity: 100;
+    /*background: #000000 0% 0% no-repeat padding-box;*/
+    box-shadow: -2px 4px 4px #0000003D;
+    height: 47px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #25313f;
+
+}
+
+.icon {
+    width: 21px;
+height: 24px;
+margin-top: 16px;
+margin-right: 15px;
+/*margin-left: 863px;*/
+}
+
+.menu li {
+    margin-top: 19px;
+    margin-left: 400px;
+width: 86px;
+height: 18px;
+font-family: 'Quicksand';
+font-size: 14px;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+.menu ul {
+    margin-top: 19px;
+    /*margin-left: 400px;*/
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-left: auto;
+}
+.navbar {
+    display:flex;
+}
+
+.filter,.name {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Quicksand';
+    
+}
+
+.num {
+    text-align: left;
+    font-size: 12px ;
+    /*font: normal normal medium 12px/14px Quicksand;*/
+letter-spacing: 0px;
+color: #686868;
+opacity: 1;
+}
+
+.name>select {
+    font-family: 'Quicksand' ;
+    font-size: 16px;
+    ;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 25px;
+}
+.box1,.box2,.box3,.box4{
+width: 476px;
+height: 246px;
+background-color: white;
+margin-left: 24px;
+margin-top: 24px;
+display: flex;
+flex-direction: row;
+}
+.items {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.lesson {
+    margin-left: 14px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    /*height: 43px;*/
+}
+.fav {
+    width: 20px;
+height: 24px;
+margin-left:165px;
+margin-top: 10px;
+
+}
+
+.subject {
+    display: flex;
+    font-family: 'Quicksand';
+    font-size: 12px;
+    flex-direction: row;
+    width: 100%;
+    font-weight: 200;
+    margin: 0px;
+    align-items: center;
+    font-weight: medium;
+    
+}
+.parts{
+    display:flex;
+    flex-direction: row;
+    font-size: 12px;
+    width: 100%;
+    font-family: 'Quicksand';
+
+}
+
+.prof{
+    margin-top: 16px;
+    width: auto;
+}
+ .prof>select {
+     font-family: 'Quicksand';
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     border-bottom: 1px solid #747474;;
+ }
+
+.date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Quicksand';
+    font-size: 12px;
+}
+
+.insights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 11px;
+}
+
+
+.info {
+    display: flex;
+    font-family: 'Quicksand';
+    margin-left: 447px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1f7a54;
+    margin-top: 40px;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+
+.fttext {
+    display: flex;
+	flex-direction: row;
+    font-family: 'Quicksand';
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #E0E1E1;
+}
+
+
+
+
+.menu {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+/*.menu ul {
+    width: 100%;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    /*
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    /*display: -ms-flexbox;      /* TWEENER - IE 10 */
+    /*display: -webkit-flex;     /* NEW - Chrome */
+   /* display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+/*
+.menu ul a {
+    width: 20%;
+    height: inherit;
+    color: #222;
+    display: inline-block;
+} */
+.menu ul a:hover {
+    background-color: #222;
+    color: #fff;
+}
+#menuToggle {
+    display: none;
+}
+.menu-icon {
+    display: none;
+}
+/*Início das configurações da Navigation com dispositivos < 768px*/
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+    .menu ul {
+        display: block;
+        max-height: 0;
+    	overflow: hidden;
+    	-webkit-transition: max-height 0.3s;
+    	-moz-transition: max-height 0.3s;
+        -ms-transition: max-height 0.3s;
+        -o-transition: max-height 0.3s;
+    	transition: max-height 0.3s;
+        /*Para fazer com que o menu saia da esquerda, você deve trocar max-height por max-width*/
+        /*Para fazer com que o menu saia da direita, você deve trocar max-height por max-width e setar float: right*/
+    }
+    .menu ul a {
+        text-align: left;
+        width: 100%;
+        height: 50px;
+        background-color: #f1c40f;
+        padding: 10px 0px 10px 5%;
+    }
+    .menu-icon {
+        width: 100px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 60px;
+    }
+    #menuToggle:checked ~ ul {
+        max-height: 350px;
+        /*Para fazer com que o menu saia da esquerda ou direita, você deve trocar max-height por max-width*/
+    }
+    .menu-icon i {
+        font-size: 1.7em;
+    }
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #8DDC97;
+    height: 64px;
+    justify-content: space-around;
+}
+
+.course,.class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid #000000;
+    font-family: 'Quicksand';
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1{
+        height: 246px;
+        width: 571px;
+        font-family: 'Quicksand';
+        padding: 24px 16px 9px 24px;
+        background-color: white;
+    }
+}
